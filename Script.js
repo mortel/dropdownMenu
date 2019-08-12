@@ -45,7 +45,7 @@ Qva.LoadScript(template_path + 'tinydropdown.js', function () {
                    
                 var tabdata = this.Layout.value;
 				var tabelem = mainMenuElem.getElementsByTagName("li");
-				// Fix vor Firefox by Vadimtsushko 
+				// Fix for Firefox by Vadimtsushko 
 				tabelem = Array.prototype.slice.call (tabelem);
 				
 					
